@@ -1,2 +1,2 @@
 # DIGITRON
-Funkcionalni digitron
+Funkcionalni digitron odradjen preko DOM-a u Javascriptu, bez preuredjivanja osnovnog sadrzaja HTML-a

@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<title>Digitron</title>
+		<meta charset="utf-8">
+		<script src="js/funkcionalnost.js"></script>
+		<link rel="stylesheet" href="css/stil.css">
+	</head>
+	<body>
+		<div>
+		<form>
+			<input type="text" id="ekran"><br>
+			<input type="hidden" id="prethodniBroj"><br>
+			<input type="hidden" id="operacija"><br>
+			
+			<button type="button">1</button>
+			<button type="button">2</button>
+			<button type="button">3</button>
+			<button type="button">+</button>
+			<br>
+			<button type="button">4</button>
+			<button type="button">5</button>
+			<button type="button">6</button>
+			<button type="button">-</button>
+			<br>
+			<button type="button">7</button>
+			<button type="button">8</button>
+			<button type="button">9</button>
+			<button type="button">*</button>
+			<br>
+			<button type="button">C</button>
+			<button type="button">0</button>
+			<button type="button">=</button>
+			<button type="button">/</button>
+		</form>
+		</div>
+		
+	</body>
+</html>
+
+<!--  
+ * Dati su fajlovi digitron.html i css/stil.css
+ * Kreirati fajl js/funkcionalnost.js i napisati programski kod u njemu tako da digitron postane funkcionalan.
+ * Zadaci - detalji:
+ * - napisati funkciju dodajBroj(broj) kojom upisujemo vrednosti kliknutog broja na ekran
+ * - napisati funkciju dodajOperaciju(operacija) koja sklanja prethodni broj sa ekrana i pamti ga, pamti i operaciju ali je ne prikazuje na ekranu
+ * - napisati funkciju resetuj() koja brise sve zapamcene unose i operacije
+ * - napisati funkciju izracunaj() koja na ekran ispisuje rezultat izabrane operacije. 
+ * 		Ako dodje do deljenja nulom, alertom izbaciti poruku: 'Nije dozvoljeno deljenje nulom!' i obrisati sve zapamcene unose i operacije
+ * - svakom button elementu koji je broj dodati css klasu brojevi, a preostalim button elementima klasu operacije
+ * - svakom button elementu dodati odgovarajucu funkciju (brojevima, operacijama...)
+-->
